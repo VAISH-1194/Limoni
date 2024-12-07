@@ -205,15 +205,15 @@
           {
             "time": "05:15 PM",
             "place": "Highway 2",
-            "zone_speed": "100 km/h",
-            "exceed_speed": "10 km/h",
+            "zone_speed": "80 km/h",
+            "exceed_speed": "100 km/h",
             "duration": "30 minutes"
           },
           {
             "time": "07:30 PM",
             "place": "Route 12",
-            "zone_speed": "110 km/h",
-            "exceed_speed": "5 km/h",
+            "zone_speed": "80 km/h",
+            "exceed_speed": "160 km/h",
             "duration": "25 minutes"
           }
         ]
