@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FlagIcon from "@mui/icons-material/Flag";
 import "../Assets/flowdesc.css";
 import data from "../Assets/data.json";
 
@@ -14,7 +15,6 @@ const FlowDesc = () => {
       <div className="flowdesc-container">
         {data.violations.map((violation, index) => (
           <div key={index} className="date-section">
-            {/* Header for each day */}
             <div
               className={`date-header ${
                 selectedDay === index ? "active" : ""
@@ -36,32 +36,53 @@ const FlowDesc = () => {
               <span>{selectedDay === index ? "▲" : "▼"}</span>
             </div>
 
-            {/* Timeline details */}
             {selectedDay === index && (
               <div className="timeline-container">
                 <div className="timeline">
-                  {violation.details.map((detail, idx) => (
-                    <div key={idx} className="dot-box">
-                      <div className="dot"></div>
-                      <div className="info-box">
-                        <p>
-                          <strong>Time:</strong> {detail.time}
-                        </p>
-                        <p>
-                          <strong>Place:</strong> {detail.place}
-                        </p>
-                        <p>
-                          <strong>Zone Speed:</strong> {detail.zone_speed}
-                        </p>
-                        <p>
-                          <strong>Exceed Speed:</strong> {detail.exceed_speed}
-                        </p>
-                        <p>
-                          <strong>Duration:</strong> {detail.duration}
-                        </p>
+                  {violation.details.map((detail, idx) => {
+                    const exceedSpeed = parseInt(detail.exceed_speed.replace(" km/h", ""), 10);
+                    const zoneSpeed = parseInt(detail.zone_speed.replace(" km/h", ""), 10);
+
+                    let flagColor = null;
+                    if (exceedSpeed > zoneSpeed + 20 && exceedSpeed <= zoneSpeed + 40) {
+                      flagColor = "yellow";
+                    } else if (exceedSpeed > zoneSpeed + 40) {
+                      flagColor = "red";
+                    }
+
+                    return (
+                      <div key={idx} className="dot-box">
+                        <div className="dot"></div>
+                        {flagColor && (
+                          <FlagIcon
+                            style={{
+                              color: flagColor,
+                              position: "absolute",
+                              top: "-40px",
+                              fontSize: "20px",
+                            }}
+                          />
+                        )}
+                        <div className="info-box">
+                          <p>
+                            <strong>Time:</strong> {detail.time}
+                          </p>
+                          <p>
+                            <strong>Place:</strong> {detail.place}
+                          </p>
+                          <p>
+                            <strong>Zone Speed:</strong> {detail.zone_speed}
+                          </p>
+                          <p>
+                            <strong>Exceed Speed:</strong> {detail.exceed_speed}
+                          </p>
+                          <p>
+                            <strong>Duration:</strong> {detail.duration}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             )}
