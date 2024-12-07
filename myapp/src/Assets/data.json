@@ -1,0 +1,223 @@
+{
+    "violations": [
+      {
+        "day": "2024-12-01",
+        "details": [
+          {
+            "time": "10:30 AM",
+            "place": "Main Street",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "5 km/h",
+            "duration": "1 hour 20 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-02",
+        "details": [
+          {
+            "time": "11:45 AM",
+            "place": "Route 25",
+            "zone_speed": "90 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "45 minutes"
+          },
+          {
+            "time": "02:00 PM",
+            "place": "Downtown",
+            "zone_speed": "80 km/h",
+            "exceed_speed": "10 km/h",
+            "duration": "30 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-03",
+        "details": [
+          {
+            "time": "09:10 AM",
+            "place": "Expressway",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "10 km/h",
+            "duration": "50 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-04",
+        "details": [
+          {
+            "time": "01:00 PM",
+            "place": "Highway 5",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "20 km/h",
+            "duration": "1 hour"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-05",
+        "details": [
+          {
+            "time": "08:00 AM",
+            "place": "Main Street",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "8 km/h",
+            "duration": "1 hour 10 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-06",
+        "details": [
+          {
+            "time": "03:30 PM",
+            "place": "Route 25",
+            "zone_speed": "90 km/h",
+            "exceed_speed": "12 km/h",
+            "duration": "40 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-07",
+        "details": [
+          {
+            "time": "10:20 AM",
+            "place": "Highway 10",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "5 km/h",
+            "duration": "30 minutes"
+          },
+          {
+            "time": "06:10 PM",
+            "place": "Route 7",
+            "zone_speed": "90 km/h",
+            "exceed_speed": "20 km/h",
+            "duration": "50 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-08",
+        "details": [
+          {
+            "time": "12:10 PM",
+            "place": "Route 3",
+            "zone_speed": "80 km/h",
+            "exceed_speed": "10 km/h",
+            "duration": "1 hour"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-00",
+        "details": [
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          },
+          {
+            "time": "09:45 AM",
+            "place": "Downtown",
+            "zone_speed": "70 km/h",
+            "exceed_speed": "15 km/h",
+            "duration": "1 hour 15 minutes"
+          }
+        ]
+      },
+      {
+        "day": "2024-12-10",
+        "details": [
+          {
+            "time": "05:15 PM",
+            "place": "Highway 2",
+            "zone_speed": "100 km/h",
+            "exceed_speed": "10 km/h",
+            "duration": "30 minutes"
+          },
+          {
+            "time": "07:30 PM",
+            "place": "Route 12",
+            "zone_speed": "110 km/h",
+            "exceed_speed": "5 km/h",
+            "duration": "25 minutes"
+          }
+        ]
+      }
+    ]
+  }
+  
